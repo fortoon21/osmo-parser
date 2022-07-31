@@ -1,0 +1,27 @@
+{
+  "name": "osmo-parser",
+  "version": "1.0.0",
+  "description": "osmosis pool response parser for pathfinder to json format",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npx ts-node test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortoon21/osmo-parser.git"
+  },
+  "keywords": [
+    "pool-params",
+    "pool-infos"
+  ],
+  "author": "Mi0racle & Opt",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/fortoon21/osmo-parser/issues"
+  },
+  "homepage": "https://github.com/fortoon21/osmo-parser#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "ts-node": "^10.9.1"
+  }
+}
